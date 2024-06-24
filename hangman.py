@@ -1,10 +1,10 @@
 import random
-from faker import Faker
-fake = Faker("id_ID")
+#from faker import Faker
+#fake = Faker("id_ID")
 name = input("Please enter the players name? ")
-#words = ["apple", "banana", "cherry", "orange", "grape", "strawberry"]
-word = fake.month_name().lower()
-#word = random.choice(words)
+words = ["apple", "banana", "cherry", "orange", "grape", "strawberry"]
+#word = fake.month_name().lower()
+word = random.choice(words)
 guesses = ""
 guesses_left = 6
 print("Welcome to Hangman!")
